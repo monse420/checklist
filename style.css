@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+img{
+    padding: 3%;
+    margin-left: 0px;
+    float: left;
+  }
+
+
+  .enlace {
+      font-size: 20px;
+      color: #00457c;;
+      background: transparent;
+  }
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(43, 43, 43);
+    padding: 30px 20px 20px 20px;
+}
+  
+  body {
+      font-family: 'Roboto', sans-serif;
+      background: #000 url('img/uno.jpg');
+      color: #030303;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+
+
+      table thead {
+      background:#1fa7b1;
+      color:rgb(255, 255, 255);
+      }
+  
+      #boton {
+          background-color: #049e32;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          font-size: 20px;
+          border-radius: 5px;
+        }
+        
+      #boton {
+          -webkit-transition-duration: 0.5s; /* Safari */
+          transition-duration: 0.4s;
+        }
+      #boton:hover {
+          background-color: #0066ff; /* blue */
+          color: rgb(255, 255, 255);
+        }
+  
+      .contenedor-texto .titulo {
+          font-size: 50px;
+          font-weight: normal;
+          margin-bottom: 40px;
+     }
+     
+      .contenedor-texto .opciones {
+          font-weight: bold;
+          color: #7a7c7e;
+          font-style: normal;
+     }
+     
+      .contenedor-texto p {
+          margin-bottom: 40px;
+          line-height: 36px;
+     }
+
+#palabra{
+    font-size: 28px;
+    color: #00457c;
+}
+#palabra1{
+    font-size: 28px;
+    color: #7a7c7e;
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: small;
+    background: rgba(255, 255, 255, 0.582);
+    padding: 10px;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+
+#logocentro{
+    float: right;
+    margin: auto;
+}
+
+
+main{
+    background-color: rgba(196, 193, 193, 0.685);
+    margin: 50px auto;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+input, button, select{
+    font-size: 18px;
+}
+
+#todo{
+    padding: 20px;
+
+}
+
+.todo{
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.todo:hover{
+    color: white;
+    background-image: radial-gradient(circle at -20.44% 43.84%, #ff42b6 0, #ff30c2 8.33%, #ff1dce 16.67%, #ff04da 25%, #f600e5 33.33%, #d800f0 41.67%, #b20dfa 50%, #8021ff 58.33%, #1431ff 66.67%, #003dff 75%, #0046ff 83.33%, #004dff 91.67%, #0051ff 100%);
+}
+
+.todo .checkbox-container{
+    width: calc(100% - 36px);
+}
+
+.todo button{
+    border: 0;
+    background: none;
+    background-image: url(img/delete.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+.todo button:hover svg{
+fill:bisque;
+}
+
+#lists{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+
+}
+
+#lists .list{
+    background-image: radial-gradient(circle at 9.44% 107.92%, #e9a915 0, #ee9d0c 12.5%, #f39107 25%, #f78307 37.5%, #fa730d 50%, #fc6215 62.5%, #fe4f1f 75%, #ff3829 87.5%, #ff1433 100%);
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#add-container{
+    background-color: rgba(238, 238, 238, 0.774);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#add-container form{
+    display: flex;
+    align-items: baseline;
+}
+
+#add-container form select{
+    border: 0;
+    background-color: transparent;
+    padding: 5px;
+    outline: none;
+    width: 30%;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+#add-container form input{
+    padding: 10px 0;
+    width: 70%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+#add-container form::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: solid  rgb(170, 170, 170);
+    border-width: 0 3px 3px 0;
+    transform: rotate(-45deg);
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
